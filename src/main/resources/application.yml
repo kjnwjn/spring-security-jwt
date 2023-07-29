@@ -1,0 +1,21 @@
+# Common Datasource
+spring:
+  datasource:
+    url: jdbc:postgresql://ep.datvu.tech:8790/security
+    username: postgres
+    password: 123456a@
+
+# JPA
+  jpa:
+    show-sql: true
+    # properties:
+    # 	hibernate:
+    # 			format_sql: true
+    # open-in-view: true
+
+# Springdoc 
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
